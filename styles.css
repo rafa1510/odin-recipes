@@ -1,0 +1,31 @@
+* {
+    font-family: 'Courier New', monospace;
+}
+
+.mac_and_cheese,
+.panna_cotta,
+.spaghetti_aglio,
+.img_container {
+    text-align: center;
+}
+
+.mac_and_cheese {
+    background-color: lightblue;
+}
+
+.panna_cotta {
+    background-color: pink;
+}
+
+.spaghetti_aglio {
+    background-color: lightsalmon;
+}
+
+h2 {
+    font-weight: 550;
+}
+
+img {
+    height: auto;
+    width: 250px;
+}
