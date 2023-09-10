@@ -2,6 +2,67 @@
     font-family: 'Courier New', monospace;
 }
 
+body {
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 550;
+    display: inline-block;
+    background-color: beige;
+}
+
+a {
+    color: rgb(71, 71, 71);
+}
+
+img {
+    height: auto;
+    width: 250px;
+}
+
+/* Homepage Styling */
+
+.title {
+    width: 400px;
+    margin: 16px auto;
+    text-align: center;
+    padding: 8px;
+    background-color: rgb(217, 247, 214);
+}
+
+.recipe_names {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.mac_homepage,
+.spaghetti_homepage,
+.panna_homepage {
+    width: 400px;
+    padding: 5px;
+}
+
+.mac_homepage {
+    background-color: lightblue;
+}
+
+.spaghetti_homepage {
+    background-color: pink;
+}
+
+.panna_homepage {
+    background-color: lightsalmon;
+}
+
+.image_homepage {
+    width: 400px;
+}
+
+/* Recipe Site Styling */
+
 .mac_and_cheese,
 .panna_cotta,
 .spaghetti_aglio,
@@ -21,11 +82,3 @@
     background-color: lightsalmon;
 }
 
-h2 {
-    font-weight: 550;
-}
-
-img {
-    height: auto;
-    width: 250px;
-}
